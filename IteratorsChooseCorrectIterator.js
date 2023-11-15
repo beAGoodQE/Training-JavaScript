@@ -7,6 +7,7 @@ cities.forEach(city => console.log('Have you visited ' + city + '?'));
 
 // Choose a method that will return a new array
 const longCities = cities.filter(city => city.length > 7);
+console.log(longCities);
 
 // Choose a method that will return a single value
 const word = cities.reduce((acc, currVal) => {
@@ -15,8 +16,9 @@ const word = cities.reduce((acc, currVal) => {
 
 console.log(word)
 
-// Choose a method that will return a new array
+// Choose a method that will return a new array with new values (number - 5)
 const smallerNums = nums.map(num => num - 5);
+console.log('smallerNums: ' + smallerNums);
 
 // Choose a method that will return a boolean value
-nums.every(num => num < 0);
+console.log(nums.every(num => num < 0));

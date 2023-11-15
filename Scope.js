@@ -14,20 +14,14 @@ console.log(callMyNightSky());
 // Block scope aka "local variables" only available to code in the same block
 const logVisibleLightWaves = () => {
     const lightWaves = 'Moonlight';
-    console.log(lightWaves);
+    console.log(lightWaves);  // Prints 'Moonlight'
   }
-
   logVisibleLightWaves();
-  console.log(logVisibleLightWaves());
-  console.log(lightWaves);
-
-  // prints:    Moonlight
-  //            Moonlight
-  //            undefined
-  //            ReferenceError
+  console.log(logVisibleLightWaves());  // Prints 'Moonlight' (from within logVisibleLightWaves function), then Prints 'undefined'
+//  console.log(lightWaves);  // Prints' 'ReferenceError'
 
 
-  /////////////////////////  Scope Pollution  //////////////////
+/////////////////////////  Scope Pollution  //////////////////
 let num = 50;
 
 const logNum = () => {

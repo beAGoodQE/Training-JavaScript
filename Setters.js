@@ -18,6 +18,8 @@ const robot = {
       }
     }
   };
-  
-  robot.numOfSensors = 100;
-  console.log(robot.numOfSensors);  // Prints 100
+
+console.log(robot.numOfSensors);  // Prints 15
+
+robot.numOfSensors = 100;
+console.log(robot.numOfSensors);  // Prints 100

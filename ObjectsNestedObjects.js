@@ -40,4 +40,6 @@ let spaceship = {
   }; 
   
   const capFave = spaceship.crew.captain['favorite foods'][0];
+  console.log('capFave: ' + capFave);
   const firstPassenger = spaceship.passengers[0];
+  console.log('firstPassenger: ' + firstPassenger.name);

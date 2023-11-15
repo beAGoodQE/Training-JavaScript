@@ -24,11 +24,11 @@ let spaceship = {
 
 // Write your code below
 for (let crewMember in spaceship.crew) {
-  console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`);  
+    console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`);  
 }
 
 for (let crewMember in spaceship.crew) {
-  console.log(`${spaceship.crew[crewMember].name}: ${spaceship.crew[crewMember].degree}`);  
+    console.log(`${spaceship.crew[crewMember].name}: ${spaceship.crew[crewMember].degree}`);
 }
 
 /* Prints:

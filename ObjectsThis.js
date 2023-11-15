@@ -17,6 +17,7 @@ const goat = {
 };
 goat.diet();  // Output will be "ReferenceError: dietType is not defined"
 
+
 const goat2 = {
     dietType: 'herbivore',
     makeSound() {
@@ -26,7 +27,7 @@ const goat2 = {
         console.log(this.dietType);
     }
 };
-goat2.diet();  // Output: herbivore
+goat2.diet();  // Prints 'herbivore'
 
 
 const robot = {

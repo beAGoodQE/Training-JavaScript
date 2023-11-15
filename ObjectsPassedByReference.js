@@ -13,8 +13,9 @@ const spaceship = {
 let paintIt = obj => {
     obj.color = 'glorious gold'
 };
-   paintIt(spaceship); // call paintIt with spaceship passed in as the 'obj' parameter
-spaceship.color // Returns 'glorious gold'
+
+paintIt(spaceship); // call paintIt with spaceship passed in as the 'obj' parameter
+console.log(spaceship.color); // Returns 'glorious gold'
 
 
 let spaceship2 = {
@@ -32,6 +33,7 @@ const remotelyDisable = object => {
 }
   
 greenEnergy(spaceship2);
+console.log(spaceship2['Fuel Type']); // Prints 'avocado oil'
 remotelyDisable(spaceship2);
 console.log(spaceship2);
 // Prints { 'Fuel Type': 'avocado oil', homePlanet: 'Earth', disabled: true }
