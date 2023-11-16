@@ -39,4 +39,5 @@ const plantNeedsWater = (day) => {
 };
 */
 
+// Concise body syntax (with one parameter) does not use parentheses, curly braces, or the return keyword.
 const plantNeedsWater2 = day => day === 'Wednesday' ? true : false;

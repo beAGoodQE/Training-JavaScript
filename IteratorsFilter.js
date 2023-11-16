@@ -10,10 +10,11 @@ const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 const smallNumbers = randomNumbers.filter(randomNum => {
   return randomNum < 250;
 })
-
+console.log('Small Nums: ' + smallNumbers); // Prints 200, 3.14, 7, 13
 
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 // Call .filter() on favoriteWords below
 const longFavoriteWords = favoriteWords.filter(faveWord => {
   return faveWord.length > 7;
 })
+console.log('Long Words: ' + longFavoriteWords); // Prints nostalgia, hyperbole, esoteric
