@@ -1,3 +1,5 @@
+// Getters and setters are special methods that are accessed like properties, and you don't invoke them with 
+// parentheses as you would with regular methods.
 const robot = {
     _model: '1E78V2',
     _energyLevel: 100,
