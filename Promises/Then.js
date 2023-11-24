@@ -28,11 +28,11 @@ let prom = new Promise((resolve, reject) => {
     console.log(rejectionReason);
   };
   
-  prom.then(handleSuccess1, handleFailure1);
+prom.then(handleSuccess1, handleFailure1);
 
 
-  /////////////////////////////////  EXAMPLE 2  ///////////////////////////////////
-  const {checkInventory} = require('./Library.js');
+/////////////////////////////////  EXAMPLE 2  ///////////////////////////////////
+const {checkInventory} = require('./Library.js');
 
 const order = [['sunglasses', 1], ['bags', 2]];
 
